@@ -5,7 +5,7 @@ import SwiftUI
 private extension String {
 
     func localized() -> String {
-        return NSLocalizedString(self, comment: "")
+        return NSLocalizedString(self, bundle: .module, comment: "")
     }
 
 }
@@ -124,12 +124,12 @@ public struct ProfitItemView: View {
 
     public var body: some View {
         Link(destination: item.url, label: {
-            HStack {
-                Image(item.imageName)
+            HStack(spacing: 16) {
+                Image(item.imageName, bundle: .module)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 40)
-                    .cornerRadius(5)
+                    .cornerRadius(10)
                 VStack(alignment: .leading) {
                     Text(item.title)
                         .foregroundColor(.primary)
