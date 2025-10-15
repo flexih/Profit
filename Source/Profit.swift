@@ -155,7 +155,7 @@ public struct ProfitView: View {
                 ProfitItemView(item: item)
             }
         } header: {
-            Text("Profit")
+            Text("Profit".localized())
         }
     }
 }
