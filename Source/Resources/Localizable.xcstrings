@@ -273,6 +273,17 @@
         }
       }
     },
+    "Profit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "作品集"
+          }
+        }
+      }
+    },
     "yiqi.description" : {
       "extractionState" : "manual",
       "localizations" : {
