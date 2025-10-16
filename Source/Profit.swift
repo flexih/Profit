@@ -85,7 +85,7 @@ public struct Profit {
             case .che:
                 return URL(string: "https://apps.apple.com/app/id6445831200")!
             case .camflags:
-                return URL(string: "https://apps.apple.com/app/camflags-ai-snap-know-flags/id6454024308")!
+                return URL(string: "https://apps.apple.com/app/id6454024308")!
             }
         }
 
