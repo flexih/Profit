@@ -317,7 +317,41 @@
           }
         }
       }
-    }
+    },
+    "photoimport.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo Import²"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo Import²"
+          }
+        }
+      }
+    },
+    "photoimport.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mass USB Photo & Video Import"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海量USB照片视频极速导入"
+          }
+        }
+      }
+    },
   },
   "version" : "1.1"
 }

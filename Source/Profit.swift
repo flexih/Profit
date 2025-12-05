@@ -30,6 +30,7 @@ public struct Profit {
         case onestopwatch
         case yiqi
         case che
+        case photoimport
 
         var title: String {
             "\(self.rawValue).title"
@@ -63,6 +64,8 @@ public struct Profit {
                 return "id6445831200"
             case .camflags:
                 return "id6751882342"
+            case .photoimport:
+                return "id6755956335"
             }
         }
 
@@ -86,6 +89,8 @@ public struct Profit {
                 return URL(string: "https://apps.apple.com/app/id6445831200")!
             case .camflags:
                 return URL(string: "https://apps.apple.com/app/id6751882342")!
+            case .photoimport:
+                return URL(string: "https://apps.apple.com/app/id6755956335")!
             }
         }
 
