@@ -24,13 +24,13 @@ public struct Profit {
         case onepower
         case mysensor
         case glucosedaily
+        case photoimport
         case camflags
         case circle
         case pande
         case onestopwatch
         case yiqi
         case che
-        case photoimport
 
         var title: String {
             "\(self.rawValue).title"
